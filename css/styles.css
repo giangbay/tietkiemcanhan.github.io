@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+
+#info h2 {
+  font-size: 32px;
+  color: rgb(67, 121, 215);
+  margin-bottom: 15px;
+}
+
+#info table tr td b {
+  padding-right: 32px;
+}
+
+#info .section-content img {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+
+  width: 114px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section:nth-child(1) > .section-title {
+  border: none;
+}
+
+.section-title {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+  content: "1233";
+}
+
+.cv-page .section:not(:nth-child(1)) .section-title {
+  margin-bottom: 15px;
+}
+
+.cv-page .section:nth-child(2) .section-title {
+  margin-bottom: 20px;
+}
+
+.sp-tb table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.sp-tb table p {
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  align-items: start;
+}
+
+.sp-tb table tr td {
+  padding: 10px 0;
+  border-bottom: 1px solid #5959593d;
+  vertical-align: top;
+}
+
+.sp-tb table tr td:first-child {
+  width: 30%;
+  /* font-weight: bold;
+  background-color: #f0f0f0; */
+}
+.sp-tb table tr td:nth-child(2) {
+  width: 70%;
+}
